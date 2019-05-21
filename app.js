@@ -11,7 +11,7 @@ questions = [
     ['I felt that I had nothing to look forward to', 'd'],
     ['I found myself getting agitated', 's'],
     ['I found it difficult to relax', 's'],
-    [' felt down-hearted and blue', 'd'],
+    ['I felt down-hearted and blue', 'd'],
     ['I felt intolerant of anything that kept me from getting on with what I was doing', 's'],
     ['I felt I was close to panic', 'a'],
     ['I was unable to become enthusiastic about anything', 'd'],
