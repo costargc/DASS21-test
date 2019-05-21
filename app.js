@@ -1,13 +1,50 @@
+// start test
+question=0;
+$("#start").on("click", function () {
+    // $("#initialScreen").css("display: 'none'");
+    document.getElementById("initialScreen").style.display = "none";
+    document.getElementById("question"+question).style.display = "flex";
+    question++;
+    time = 30;
+    $("#timer").text(timeConverter(time));
+    
+    myclock = setInterval(function () {
+    
+        count();
+        if (time == 0) {
+            clearInterval(myclock);
+            document.getElementById('r0').click();
+        }
+    
+    }, 1000);
+});
+// start test - end
 
-time = 30;
-$("#timer").text(timeConverter(time));
-setInterval(count, 1000);
+$("#r0").on("click", function () {
+    console.log("r0",question)
+    question++;
+});
+$("#r1").on("click", function () {
+    console.log("r1",question)
+    question++;
+});
+$("#r2").on("click", function () {
+    console.log("r2",question)
+    question++;
+});
+$("#r3").on("click", function () {
+    console.log("r3",question)
+    question++;
+});
+
+
+
 
 function count() {
     if (time > 0) {
         time--;
         var converted = timeConverter(time);
-        console.log(converted);
+        // console.log(converted);
         $("#timer").text(converted);
     }
     else {

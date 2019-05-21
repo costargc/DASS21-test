@@ -16,10 +16,10 @@ h5{
 }
 
 #initialScreen{
-    display: none;
-}
-#questions{
     display: flex;
+}
+#question0{
+    display: none;
 }
 #final_results{
     display: none;
@@ -32,7 +32,7 @@ h5{
     width: 100px;
     padding-top: 5px;
     height: 35px;
-    opacity: 1;
+    opacity: 0.1;
 }
 #DMild,#AMild,#SMild{
     background-color: yellow;
@@ -40,7 +40,7 @@ h5{
     width: 100px;
     padding-top: 5px;
     height: 35px;
-    opacity: 1;
+    opacity: 0.1;
 }
 #DModerate,#AModerate,#SModerate{
     background-color: orange;
@@ -48,7 +48,7 @@ h5{
     width: 100px;
     padding-top: 5px;
     height: 35px;
-    opacity: 1;
+    opacity: 0.1;
 }
 #DSevere,#ASevere,#SSevere{
     background-color: red;
@@ -57,7 +57,7 @@ h5{
     width: 100px;
     padding-top: 5px;
     height: 35px;
-    opacity: 1;
+    opacity: 0.1;
 }
 #DExtreme,#AExtreme,#SExtreme{
     background-color: darkred;
@@ -66,5 +66,5 @@ h5{
     width: 100px;
     padding-top: 5px;
     height: 35px;
-    opacity: 1;
+    opacity: 0.1;
 }
