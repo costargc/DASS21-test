@@ -1,4 +1,4 @@
-# DASS21-test (Trivia Game take)
+# DASS21-test (Trivia Game, Timed Questions)
 
 https://costargc.github.io/DASS21-test/
 
