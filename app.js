@@ -12,12 +12,12 @@ questions = [
     ['I found myself getting agitated', 's'],
     ['I found it difficult to relax', 's'],
     [' felt down-hearted and blue', 'd'],
-    ['I was intolerant of anything that kept me from getting on with what I was doing', 's'],
+    ['I felt intolerant of anything that kept me from getting on with what I was doing', 's'],
     ['I felt I was close to panic', 'a'],
     ['I was unable to become enthusiastic about anything', 'd'],
     ['I felt I wasn’t worth much as a person', 'd'],
     ['I felt that I was rather touchy', 's'],
-    ['I sensed my heart rate increase or miss a beat)', 'a'],
+    ['I sensed my heart rate increase or miss a beat', 'a'],
     ['I felt scared without any good reason', 'a'],
     ['I felt that life was meaningless', 'd']
 ]
