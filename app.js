@@ -40,7 +40,7 @@ $("#restart").on("click", function () {
 $("#r0").on("click", function () {
     event.preventDefault();
 
-    console.log("r0", depression, anxiety, stress)
+    // console.log("r0", depression, anxiety, stress)
 
     if (questions[question][1] == 'a') {
         anxiety += 0;
@@ -78,7 +78,7 @@ $("#r0").on("click", function () {
 $("#r1").on("click", function () {
     event.preventDefault();
 
-    console.log("r0", depression, anxiety, stress)
+    // console.log("r0", depression, anxiety, stress)
 
     if (questions[question][1] == 'a') {
         anxiety += 1;
