@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>DASS 21 Psychology test</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row" id="initialScreen">
+
+            <div class="col-3"></div>
+
+            <div class="col-6 mt-5 mb-5">
+
+                <h1>DASS 21 Psychology test</h1>
+
+                <p>This is not a categorical measure of clinical diagnoses, but helps to explore how people
+                    may be functioning on a day to day basis. <span id=colour_red>IT IS IMPORTANT TO REMEMBER THAT THIS
+                        DOES NOT MEAN PEOPLE HAVE A DIAGNOSIS OF DEPRESSION, ANXIETY OR STRESS</span>.</p>
+
+                <div class="btn btn-warning btn-lg mt-5 mb-5" id="start">Start test</div>
+
+            </div>
+
+
+            <div class="col-3"></div>
+
+        </div>
+
+
+        <div class="row" id="questions">
+
+            <div class="col-3"></div>
+
+            <div class="col-6">
+                <h3 id=timer>00:30</h3>
+                <p>In the past week...</p>
+                <h4 class="response mb-3">I found it hard to wind down</h4>
+
+                <div class="row">
+
+                    <div class="col-3"></div>
+
+                    <div class="col-6">
+                        <button class="btn btn-outline-dark btn-block" id="r0">did not apply to me</button>
+                        <button class="btn btn-outline-dark btn-block" id="r1">apply some of the time</button>
+                        <button class="btn btn-outline-dark btn-block" id="r2">apply good part of time</button>
+                        <button class="btn btn-outline-dark btn-block" id="r3">apply most of the time </button>
+                    </div>
+
+                    <div class="col-3"></div>
+
+
+                </div>
+            </div>
+
+            <div class="col-3"></div>
+        </div>
+
+
+
+        <div class="row" id="final_results">
+
+            <div class="col-3"></div>
+
+            <div class="col-6">
+
+                <h1>Results</h1>
+
+                <div class="results">
+                    <div>
+                        <h5>Depression Scale:</h5>
+                    </div>
+
+                    <div class="Depression mb-5" style="width: 500px;">
+                        <span class="border border-success" id="DNormal">Normal</span>
+                        <span class="border border-warning" id="DMild">Mild</span>
+                        <span class="border border-warning" id="DModerate">Moderate</span>
+                        <span class="border border-danger" id="DSevere">Severe</span>
+                        <span class="border border-danger" id="DExtreme">Extreme</span>
+                    </div>
+
+                    <div>
+                        <h5>Anxiety Scale:</h5>
+                    </div>
+
+                    <div class="Anxiety mb-5" style="width: 500px;">
+                        <span class="border border-success" id="ANormal">Normal</span>
+                        <span class="border border-warning" id="AMild">Mild</span>
+                        <span class="border border-warning" id="AModerate">Moderate</span>
+                        <span class="border border-danger" id="ASevere">Severe</span>
+                        <span class="border border-danger" id="AExtreme">Extreme</span>
+                    </div>
+
+                    <div>
+                        <h5>Stress Scale:</h5>
+                    </div>
+                    <div class="Stress mb-5" style="width: 500px;">
+                        <span class="border border-success" id="SNormal">Normal</span>
+                        <span class="border border-warning" id="SMild">Mild</span>
+                        <span class="border border-warning" id="SModerate">Moderate</span>
+                        <span class="border border-danger" id="SSevere">Severe</span>
+                        <span class="border border-danger" id="SExtreme">Extreme</span>
+                    </div>
+
+                </div>
+
+                <div class="btn btn-primary btn-lg mt-5 mb-5" id="restart">Restart</div>
+
+            </div>
+
+            <div class="col-3"></div>.
+
+        </div>
+
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

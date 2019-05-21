@@ -1,0 +1,60 @@
+.container{
+    text-align: center;
+}
+
+h1{
+    padding: 25px 0px 50px 0px;
+}
+
+h5{
+    text-align: left;
+}
+
+#colour_red{
+    color: red;
+    font-weight: bold;
+}
+
+
+#DNormal,#ANormal,#SNormal{
+    background-color: lightgreen;
+    float: left;
+    width: 100px;
+    padding-top: 5px;
+    height: 35px;
+    opacity: 1;
+}
+#DMild,#AMild,#SMild{
+    background-color: lightyellow;
+    float: left;
+    width: 100px;
+    padding-top: 5px;
+    height: 35px;
+    opacity: 1;
+}
+#DModerate,#AModerate,#SModerate{
+    background-color: orange;
+    float: left;
+    width: 100px;
+    padding-top: 5px;
+    height: 35px;
+    opacity: 1;
+}
+#DSevere,#ASevere,#SSevere{
+    background-color: red;
+    color: white;
+    float: left;
+    width: 100px;
+    padding-top: 5px;
+    height: 35px;
+    opacity: 1;
+}
+#DExtreme,#AExtreme,#SExtreme{
+    background-color: darkred;
+    color: white;
+    float: left;
+    width: 100px;
+    padding-top: 5px;
+    height: 35px;
+    opacity: 1;
+}
