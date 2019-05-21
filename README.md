@@ -1,8 +1,36 @@
-# JavaScript Assignment 2
+# DASS21-test (Trivia Game take)
+
+https://costargc.github.io/DASS21-test/
 
 ### Overview
 
-In this assignment, You'll create a Trivia game using JavaScript for the logic and jQuery to manipulate HTML. Be sure to layout this app with valid HTML and stylish CSS.
+The Depression, Anxiety and Stress Scale - 21 Items (DASS-21) is a set of three self-report scales designed to
+measure the emotional states of depression, anxiety and stress.
+
+Each of the three DASS-21 scales contains 7 items, divided into subscales with similar content. The depression
+scale assesses dysphoria, hopelessness, devaluation of life, self-deprecation, lack of interest / involvement,
+anhedonia and inertia. The anxiety scale assesses autonomic arousal, skeletal muscle effects, situational
+anxiety, and subjective experience of anxious affect. The stress scale is sensitive to levels of chronic nonspecific arousal. It assesses difficulty relaxing, nervous arousal, and being easily upset / agitated, irritable /
+over-reactive and impatient. Scores for depression, anxiety and stress are calculated by summing the scores
+for the relevant items.
+
+The DASS-21 is based on a dimensional rather than a categorical conception of psychological disorder. The
+assumption on which the DASS-21 development was based (and which was confirmed by the research data) is
+that the differences between the depression, anxiety and the stress experienced by normal subjects and
+clinical populations are essentially differences of degree. The DASS-21 therefore has no direct implications for
+the allocation of patients to discrete diagnostic categories postulated in classificatory systems such as the
+DSM and ICD.
+
+Recommended cut-off scores for conventional severity labels (normal, moderate, severe) are as follows:
+NB Scores on the DASS-21 will need to be multiplied by 2 to calculate the final score.
+
+|               | Depression  | Anxiety | Stress |
+| ------------- | ------------- | ------------- | ------------- |
+| Normal  | 0+  | 0+  | 0+  |
+| Mild  | 10+  | 8+  | 15+  |
+| Moderate  | 14+  | 10+  | 19+  |
+| Severe  | 21+  | 15+  | 26+  |
+| Extreme  | 28+  | 20+  | 34+  |
 
 ### Commits
 
