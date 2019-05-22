@@ -7,8 +7,9 @@ h1{
 }
 
 h5{
-    text-align: center;
-    margin: auto;
+    margin-left: 20%; 
+    text-align: left;
+    /* margin: auto; */
 }
 
 #colour_red{
