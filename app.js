@@ -335,7 +335,7 @@ function starttest() {
 }
 
 function drawconsole(){
-console.log("WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW");
+    
 console.log("WWNXXWWWWWWWWNNNNXNNNNXXXXNWWWWWWWWXXXWW");
 console.log("WWk,';oKWWWWKo;,''''''''':oKWWWW0o;.'dXW");
 console.log("WWNx.  .dNWWNX0kc.     ,d0NWWWNd.  .oXWW");
@@ -355,6 +355,4 @@ console.log("WWWWWWWWWWWWWWWWK,    .xWWWWWWWWWWWWWWWW");
 console.log("WWWWWWWWWWWWWWWWO.     oNWWWWWWWWWWWWWWW");
 console.log("WWWWWWWWWWWWXkoc.      .;lkNWWWWWWWWWWWW");
 console.log("WWWWWWWWWWWWNOxxxxxxxxxxxxONWWWWWWWWWWWW");
-console.log("WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW");
-console.log("WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW");
 }
