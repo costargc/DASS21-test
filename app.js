@@ -335,15 +335,26 @@ function starttest() {
 }
 
 function drawconsole(){
-console.log("    _____  _  _____");
-console.log("    (___  \\( )/  ___)");
-console.log("      (___/\")|\\___)");
-console.log("         ( | | )");
-console.log("          \\!' /");
-console.log("          / .'\\");
-console.log("          \\|/ /");
-console.log("           /.<");
-console.log("   PSY    (| |)");
-console.log("           `-'");
-   
+console.log("WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW");
+console.log("WWNXXWWWWWWWWNNNNXNNNNXXXXNWWWWWWWWXXXWW");
+console.log("WWk,';oKWWWWKo;,''''''''':oKWWWW0o;.'dXW");
+console.log("WWNx.  .dNWWNX0kc.     ,d0NWWWNd.  .oXWW");
+console.log("WWWNc   .xWWWWWMK,    .xWWWWWNd.   ,KWWW");
+console.log("WWWWd.   ;KWWWWWK,    .xWWWWW0,    ;XWWW");
+console.log("WWWW0'   .OWWWWWK,    .xWWWWWk.    ;XWWW");
+console.log("WWWWNl   .dWWWWWK,    .xWWWWWd.    cNWWW");
+console.log("WWWWW0,   :XWWWWK,    .xWWWWNl    .kWWWW");
+console.log("WWWWWWO'  .cKWWWK,    .xWWWKo.   'xNWWWW");
+console.log("WWWWWWW0c.  .;clc.     ;lc;.  .'oKWWWWWW");
+console.log("WWWWWWWWNKxoc:;,'      .,,;:ldONWWWWWWWW");
+console.log("WWWWWWWWWWWWWWWW0,    .dNWWWWWWWWWWWWWWW");
+console.log("WWWWWWWWWWWWWWWMK,    .xWWWWWWWWWWWWWWWW");
+console.log("WWWWWWWWWWWWWWWWK,    .xWWWWWWWWWWWWWWWW");
+console.log("WWWWWWWWWWWWWWWWK,    .xWWWWWWWWWWWWWWWW");
+console.log("WWWWWWWWWWWWWWWWK,    .xWWWWWWWWWWWWWWWW");
+console.log("WWWWWWWWWWWWWWWWO.     oNWWWWWWWWWWWWWWW");
+console.log("WWWWWWWWWWWWXkoc.      .;lkNWWWWWWWWWWWW");
+console.log("WWWWWWWWWWWWNOxxxxxxxxxxxxONWWWWWWWWWWWW");
+console.log("WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW");
+console.log("WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW");
 }
