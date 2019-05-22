@@ -324,6 +324,25 @@ function starttest() {
     stress = 0;
     event.preventDefault();
 
+    document.getElementById("DExtreme").style.opacity = "0.1";
+    document.getElementById("DSevere").style.opacity = "0.1";
+    document.getElementById("DModerate").style.opacity = "0.1";
+    document.getElementById("DMild").style.opacity = "0.1";
+    document.getElementById("DNormal").style.opacity = "0.1";
+
+    document.getElementById("AExtreme").style.opacity = "0.1";
+    document.getElementById("ASevere").style.opacity = "0.1";
+    document.getElementById("AModerate").style.opacity = "0.1";
+    document.getElementById("AMild").style.opacity = "0.1";
+    document.getElementById("ANormal").style.opacity = "0.1";
+
+    document.getElementById("SExtreme").style.opacity = "0.1";
+    document.getElementById("SSevere").style.opacity = "0.1";
+    document.getElementById("SModerate").style.opacity = "0.1";
+    document.getElementById("SMild").style.opacity = "0.1";
+    document.getElementById("SNormal").style.opacity = "0.1";
+
+
     document.getElementById("final_results").style.display = "none";
     document.getElementById("initialScreen").style.display = "none";
     $('#printquestion').text(questions[question][0]);
@@ -335,7 +354,7 @@ function starttest() {
 }
 
 function drawconsole(){
-    
+
 console.log("WWNXXWWWWWWWWNNNNXNNNNXXXXNWWWWWWWWXXXWW");
 console.log("WWk,';oKWWWWKo;,''''''''':oKWWWW0o;.'dXW");
 console.log("WWNx.  .dNWWNX0kc.     ,d0NWWWNd.  .oXWW");
