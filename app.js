@@ -52,8 +52,8 @@ $("#r0").on("click", function () {
         depression += 0;
     }
     question++;
-    // if (question >= questions.length) {
-        if (question >= 1) {
+    if (question >= questions.length) {
+        // if (question >= 1) {
 
         clearInterval(myclock);
         document.getElementById("initialScreen").style.display = "none";
