@@ -23,6 +23,9 @@ questions = [
 ]
 
 
+drawconsole();
+
+
 question = 0;
 anxiety = 0;
 depression = 0;
@@ -329,4 +332,18 @@ function starttest() {
     }, 500);
 
     mytimer();
+}
+
+function drawconsole(){
+console.log("    _____  _  _____");
+console.log("    (___  \\( )/  ___)");
+console.log("      (___/\")|\\___)");
+console.log("         ( | | )");
+console.log("          \\!' /");
+console.log("          / .'\\");
+console.log("          \\|/ /");
+console.log("           /.<");
+console.log("   PSY    (| |)");
+console.log("           `-'");
+   
 }
