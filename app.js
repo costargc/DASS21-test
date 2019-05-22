@@ -116,7 +116,7 @@ $("#r1").on("click", function () {
 $("#r2").on("click", function () {
     event.preventDefault();
 
-    console.log("r0", depression, anxiety, stress)
+    // console.log("r0", depression, anxiety, stress)
 
     if (questions[question][1] == 'a') {
         anxiety += 2;
@@ -153,7 +153,7 @@ $("#r2").on("click", function () {
 $("#r3").on("click", function () {
     event.preventDefault();
 
-    console.log("r0", depression, anxiety, stress)
+    // console.log("r0", depression, anxiety, stress)
 
     if (questions[question][1] == 'a') {
         anxiety += 3;
